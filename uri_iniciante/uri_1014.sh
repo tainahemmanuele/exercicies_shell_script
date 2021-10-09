@@ -1,0 +1,7 @@
+#!/bin/bash
+
+DISTANCIA="$1"
+COMBUSTIVEL="$2"
+CONSUMO=$(($DISTANCIA/$COMBUSTIVEL))
+
+echo "$CONSUMO km/l"
